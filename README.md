@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# 📱 User Information App (React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **React Native app** that fetches and displays **random user data** from an API. Users can navigate through **80 different profiles** using "Previous" and "Next" buttons. 🚀
 
-## Get started
+## 📝 Features
+✅ Fetches **80 random users** from the API on app load.  
+✅ Displays user **ID, Name, Username, Email, Avatar, and Password**.  
+✅ **Previous & Next buttons** for smooth navigation.  
+✅ **Error handling** for failed API requests.  
+✅ **Loading indicator** while fetching data.  
+✅ **Modern UI design** with a clean layout.  
+✅ **Status Bar support** for a professional look.  
 
-1. Install dependencies
+## 🚀 Technologies Used
+- **React Native** (Expo)  
+- **Expo Router** (File-based navigation)  
+- **Axios** (For API calls)  
+- **React Native Paper** (For UI enhancements)  
+- **React Native Safe Area Context** (For proper screen layout)  
 
-   ```bash
-   npm install
-   ```
+## 📡 API Used
+This app fetches user data from **Random Data API**:  
+🔗 [https://random-data-api.com/api/users/random_user?size=80](https://random-data-api.com/api/users/random_user?size=80)  
 
-2. Start the app
+## 🛠️ Installation & Setup
+You can **download the APK** from the **Releases** section of this repository or **clone the repository** and use **EAS Build** to generate the app.  
 
-   ```bash
-    npx expo start
-   ```
+```sh
+# 1️⃣ Clone the Repository
+git clone <your-repo-url>
+cd UserInfoApp
 
-In the output, you'll find options to open the app in a
+# 2️⃣ Install Dependencies
+npm install
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# 3️⃣ Start the App for Development
+npx expo start
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# 4️⃣ Build the APK using EAS Build
+eas build -p android
 
-## Get a fresh project
+# If you haven’t set up EAS before, first run:
+eas login
+eas init
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 5️⃣ Build for iOS (Optional, requires Mac with Xcode)
+eas build -p ios
