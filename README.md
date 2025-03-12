@@ -37,7 +37,8 @@ npm install
 npx expo start
 
 # 4️⃣ Build the APK using EAS Build
-eas build -p android
+eas build -p android![codefobe](https://github.com/user-attachments/assets/cd5ffc35-0367-413c-8513-d161799a5227)
+
 
 # If you haven’t set up EAS before, first run:
 eas login
