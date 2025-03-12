@@ -45,3 +45,7 @@ eas init
 
 # 5️⃣ Build for iOS (Optional, requires Mac with Xcode)
 eas build -p ios
+
+
+https://github.com/user-attachments/assets/5a36d510-e980-4a8b-a24d-ec8aea83f2f5
+
